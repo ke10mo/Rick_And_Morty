@@ -1,22 +1,46 @@
-<<<<<<< HEAD
-# lrn_cubt
+# Rick And Morty Characters App
 
-A new Flutter project.
+A Flutter application that displays characters from the Rick and Morty API with a clean UI, character details screen, and search functionality.
 
-## Getting Started
 
-This project is a starting point for a Flutter application.
 
-A few resources to get you started if this is your first Flutter project:
+## ✨ Features
 
-- [Learn Flutter](https://docs.flutter.dev/get-started/learn-flutter)
-- [Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Flutter learning resources](https://docs.flutter.dev/reference/learning-resources)
+- Fetch characters from Rick and Morty API
+- Search characters by name
+- Character details screen
+- Clean and responsive UI
+- State management using Cubit
+- API handling using Dio
+- Custom routing
+- Loading and error states
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
-=======
-# Rick_And_Morty
-A Flutter application that displays Rick and Morty characters using the Rick and Morty API.  Simple app includes character search, detailed character information, clean UI design, Cubit state management, and API integration using Dio.
->>>>>>> 408564092f9ada92c8bbd02ce25c129b944730cb
+---
+
+## 🛠️ Tech Stack
+
+- Flutter
+- Dart
+- flutter_bloc
+- Cubit
+- Dio
+- Rick and Morty API
+
+---
+
+## 📂 Project Structure
+
+```bash
+lib
+├── business_logic
+│   └── cubit
+├── constants
+├── data
+│   ├── models
+│   ├── repos
+│   └── web_services
+├── presentation
+│   ├── screens
+│   └── widgets
+├── app_router.dart
+└── main.dart
