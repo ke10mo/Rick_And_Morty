@@ -2,7 +2,17 @@
 
 A Flutter application that displays characters from the Rick and Morty API with a clean UI, character details screen, and search functionality.
 
+## 📱 Screenshots
 
+### Home Screen
+![Home Screen](screenshots/home.jpeg)
+
+### Search
+![Search](screenshots/search.jpeg)
+
+### Details Screen
+![Details Screen](assets/screenshots/details.png)
+![All_Details Screen](screenshots/all_datails.jpeg)
 
 ## ✨ Features
 
